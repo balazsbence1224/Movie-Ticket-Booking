@@ -79,7 +79,7 @@ public class RoomReadAndWrite {
 	public void reWrite(String[][] list, String m, String t) throws IOException {
 		
 		String name = m + "_" + t;
-		File f = new File("//Users//balazs//java//nagyHazi//src//" + name + ".txt");
+		File f = new File("//Users//balazs//java//nagyHazi//src//rooms//" + name + ".txt");
 		f.delete();
 		
 		BufferedWriter bw = new BufferedWriter(
@@ -116,7 +116,7 @@ public class RoomReadAndWrite {
 	public void removeRoom(String n,String t) throws IOException{
 		String[] timeStrings = t.split(":");
 		String fname = n + "_" + timeStrings[0] + "/" + timeStrings[1];
-		File f = new File("//Users//balazs//java//nagyHazi//src//" + fname + ".txt");
+		File f = new File("//Users//balazs//java//nagyHazi//src//rooms//" + fname + ".txt");
 		f.delete();
 	}
 }

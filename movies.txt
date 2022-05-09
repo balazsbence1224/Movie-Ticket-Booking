@@ -11,3 +11,4 @@ Morbius/22:45/Action, Adventure, Horror
 Uncharted/13:15/Action, Adventure
 Uncharted/14:45/Action, Adventure
 Uncharted/16:10/Action, Adventure
+Titanic/16:00/Drama, Romance
